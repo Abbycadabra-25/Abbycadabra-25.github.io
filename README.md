@@ -1,2 +1,2 @@
 # Abbycadabra-25.github.io
-theme: THEME-NAME Architect
+theme: jekyll-theme-minimal Replace jekyll-theme-architect
