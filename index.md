@@ -1,4 +1,4 @@
-title: [Abby's Website]
-description: [For my thoughts]
+Title: [Abby's Website]
+Description: [For my thoughts]
 # Welcome to my website!
 
