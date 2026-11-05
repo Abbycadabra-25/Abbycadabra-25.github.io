@@ -2,14 +2,14 @@
 /* General Page Styling */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: Trebuchet MS, sans-serif;
+    background-color: #FBE9D0;
+    color: #EBE9E1;
 }
 
 /* Top Banner */
 .banner {
-    background-color: #243447;
+    background-color: #;
     color: white;
     text-align: center;
     padding: 35px 20px;
