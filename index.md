@@ -1,2 +1,35 @@
-# Welcome to my website!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abby's Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
+<body>
+
+    <!-- Top Banner -->
+    <header class="banner">
+        <h1>My Website</h1>
+        <p>Welcome to my website</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="resources.html">Resources</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="content">
+        <h2>Home</h2>
+        <p>Welcome to my website! Use the navigation buttons
+        above to explore the different pages.</p>
+    </main>
+
+    <footer>
+        <p>© 2026 Abby Cicone</p>
+    </footer>
