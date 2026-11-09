@@ -2,15 +2,15 @@
 /* General Page Styling */
 body {
     margin: 0;
-    font-family: Trebuchet MS, sans-serif;
+    font-family: "Trebuchet MS", sans-serif;
     background-color: #874F41;
-    color: #2C3531;
+    color: #000000;
 }
 
 /* Top Banner */
 .banner {
     background-color: #244855;
-    color: E64833;
+    color: #FFFFFF;
     text-align: center;
     padding: 35px 20px;
 }
@@ -36,7 +36,7 @@ body {
 
 /* Navigation Buttons */
 .navbar a {
-    color: #90AEAD;
+    color: #E64833;
     text-decoration: none;
     padding: 12px 22px;
     border-radius: 5px;
@@ -57,7 +57,7 @@ body {
     max-width: 1100px;
     margin: 35px auto;
     padding: 30px;
-    background-color: FBE9D0;
+    background-color: #FBE9D0;
     border-radius: 8px;
     min-height: 400px;
 }
