@@ -72,5 +72,41 @@ hr {
 footer {
     text-align: center;
     padding: 20px;
-    color: #874F41;
+    color: #FFFFFF;
+}
+
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown menu */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #90AEAD;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+/* Dropdown links */
+.dropdown-content a {
+    display: block;
+    padding: 12px 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Hover effect */
+.dropdown-content a:hover {
+    background-color: #6E9594;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
 }
