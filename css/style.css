@@ -50,8 +50,8 @@ body {
     padding: 12px 22px;
     border-radius: 5px;
     transition: background-color 0.2s;
-}sition: background-color 0.2s;
 }
+
 .navbar a:hover {
     background-color: #6E9594;
 }
@@ -96,7 +96,8 @@ footer {
     display: none;
     position: absolute;
     top: 100%;
-    left: 0;
+    left: 50;
+    transform: translateX(-50%);
     width: 100%;
     box-sizing: border-box;
     background-color: #90AEAD;
