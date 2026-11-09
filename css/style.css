@@ -36,14 +36,26 @@ body {
 
 /* Navigation Buttons */
 .navbar a {
-    display: block;
+    display: inline-block;
     box-sizing: border-box;
-    width: 100%;
     color: #FFFFFF;
     text-decoration: none;
     padding: 12px 22px;
     border-radius: 5px;
     transition: background-color 0.2s;
+}
+
+/* Dropdown menu */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #90AEAD;
+    min-width: 160px;
+    width: max-content;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1000;
 }
 
 .navbar a:hover {
@@ -83,19 +95,6 @@ footer {
 .dropdown {
     position: relative;
     display: inline-block;
-}
-
-/* Dropdown menu */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #90AEAD;
-    min-width: 160px;
-    width: max-content;
-    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
-    z-index: 1000;
 }
 
 /* Dropdown links */
