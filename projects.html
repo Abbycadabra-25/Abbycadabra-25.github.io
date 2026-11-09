@@ -15,25 +15,22 @@
     </header>
 
     <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html" class="active">Projects</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+
+    <div class="dropdown">
+        <a href="projects.html" class="active">Projects ▾</a>
+            <div class="dropdown-content">
+                <a href="art.html">Art</a>
+                <a href="writing.html">Writing</a>
+                <a href="coding.html">Coding</a>
+                <a href="data.html">Data</a>
+                <a href="arduino.html">Arduino</a>
+                <a href="other.html">Other</a>
+            </div>
+        </div>
         <a href="resources.html">Resources</a>
     </nav>
-
-    <div class="project-filter">
-        <label for="category-filter">Filter by category:</label>
-
-        <select id="category-filter">
-            <option value="all">Select a Category</option>
-            <option value="art">Art</option>
-            <option value="writing">Writing</option>
-            <option value="coding">Coding</option>
-            <option value="data">Data</option>
-            <option value="arduino">Arduino</option>
-            <option value="other">Other</option>
-        </select>
-    </div>
 
     <main class="content">
         <h2>Projects</h2>
