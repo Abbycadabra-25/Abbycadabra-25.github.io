@@ -82,5 +82,22 @@
         <p>© 2026 Abby Cicone</p>
     </footer>
 
+    <script>
+    document.getElementById("category-filter").addEventListener("change", function() {
+
+    const selectedCategory = this.value;
+    const projects = document.querySelectorAll(".project-card");
+
+    projects.forEach(project => {
+        const projectCategory = project.dataset.category;
+        if (selectedCategory === "all" || projectCategory === selectedCategory) {
+            project.style.display = "";
+        } else {
+            project.style.display = "none";
+        }
+        });
+    });
+    </script> 
+
 </body>
 </html>
