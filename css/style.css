@@ -62,24 +62,11 @@ body {
     min-height: 400px;
 }
 
-/*Project Tab Dropdown Box*/
-.project-filter {
-    margin-bottom: 25px;
-}
-
-.project-filter label {
-    margin-right: 10px;
-    font-weight: bold;
-}
-
-.project-filter select {
-    padding: 8px 12px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    background-color: #90AEAD;
-    font-size: 14px;
-    cursor: pointer;
-}
+/*Dividing Line*/
+hr {
+    border: none;
+    height: 2px;
+    background-color: #E64833
 
 /* Footer */
 footer {
