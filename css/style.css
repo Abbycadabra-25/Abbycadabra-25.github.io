@@ -78,17 +78,16 @@ footer {
 /* Dropdown container */
 .dropdown {
     position: relative;
-    display: inline-block;
+    display: block;
+    width: 200px;
 }
 
 /* Dropdown menu */
 .dropdown-content {
     display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
+    position: relative;
     background-color: #90AEAD;
-    min-width: 160px;
+    width: 100%;
     box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
     z-index: 1000;
 }
