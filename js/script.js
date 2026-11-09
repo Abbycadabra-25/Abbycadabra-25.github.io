@@ -1,7 +1,12 @@
 
 // Load shared navigation bar
 fetch("nav.html")
-    .then(response => response.text())
+    .then(response => {
+        if (!response.ok) {
+            throw new Error("Could not load nav.html");
+        }
+        return response.text();
+    })
     .then(data => {
 
         document.getElementById("navbar-container").innerHTML = data;
@@ -11,27 +16,12 @@ fetch("nav.html")
             .split("/")
             .pop() || "index.html";
 
-        // Determine which navigation section is active
-        let currentSection;
+        // Determine active navigation section
+        const currentSection = currentPage === "index.html"
+            ? "home"
+            : currentPage.replace(".html", "");
 
-        if (currentPage === "index.html") {
-            currentSection = "home";
-        }
-        else if (currentPage === "about.html") {
-            currentSection = "about";
-        }
-        else if (currentPage == "projects.html") {
-            currentSection = "projects";
-        }
-        else if (currentPage === "resources.html") {
-            currentSection = "resources";
-        }
-
-        else if (currentPage == "writing.html") {
-            currentSection = "writing";
-        }
-
-        // Apply active class to matching navigation button
+        // Highlight active navigation button
         const activeLink = document.querySelector(
             `.navbar [data-section="${currentSection}"]`
         );
@@ -45,5 +35,8 @@ fetch("nav.html")
 
 
 // Automatically update copyright year
-document.getElementById("copyright-year").textContent =
-    new Date().getFullYear();
+const copyrightYear = document.getElementById("copyright-year");
+
+if (copyrightYear) {
+    copyrightYear.textContent = new Date().getFullYear();
+}
