@@ -96,8 +96,6 @@ footer {
     display: none;
     position: absolute;
     top: 100%;
-    left: 50;
-    transform: translateX(-50%);
     width: 100%;
     box-sizing: border-box;
     background-color: #90AEAD;
