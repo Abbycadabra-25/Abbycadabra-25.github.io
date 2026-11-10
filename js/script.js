@@ -1,6 +1,7 @@
+'use strict';
 
 // Load shared navigation bar
-fetch("nav.html")
+fetch("../../nav.html")
     .then(response => {
         if (!response.ok) {
             throw new Error("Could not load nav.html");
@@ -34,9 +35,4 @@ fetch("nav.html")
     .catch(error => console.error("Navigation failed to load:", error));
 
 
-// Automatically update copyright year
-const copyrightYear = document.getElementById("copyright-year");
 
-if (copyrightYear) {
-    copyrightYear.textContent = new Date().getFullYear();
-}

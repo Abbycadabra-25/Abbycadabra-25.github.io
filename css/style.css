@@ -1,5 +1,6 @@
-
 /* General Page Styling */
+
+/* Body */
 body {
     margin: 0;
     font-family: "Trebuchet MS", sans-serif;
@@ -12,14 +13,16 @@ body {
     background-color: #244855;
     color: #FFFFFF;
     text-align: center;
-    padding: 35px 20px;
+    padding: 25px 20px;
 }
 
+/* Banner Text */
 .banner h1 {
     margin: 0;
     font-size: 36px;
 }
 
+/* Banner Paragraph */
 .banner p {
     margin-bottom: 0;
     font-size: 16px;
@@ -31,8 +34,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    padding: 12px;
+    gap: 5px;
+    padding: 5px;
 }
 
 /* Navigation Buttons */
@@ -41,22 +44,24 @@ body {
     display: inline-block;
 }
 
+/* Navigation Links */
 .navbar a {
     display: block;
     box-sizing: border-box;
     width: auto;
     color: #FFFFFF;
     text-decoration: none;
-    padding: 12px 22px;
+    padding: 11px 20px;
     border-radius: 5px;
     transition: background-color 0.2s;
 }
 
+/* Navigation Links Hover Effect */
 .navbar a:hover {
     background-color: #6E9594;
 }
 
-/* Active Page Button */
+/* Navigation Links Active Effect */
 .navbar a.active {
     background-color: #6E9594;
 }
@@ -64,11 +69,11 @@ body {
 /* Main Content */
 .content {
     max-width: 1100px;
-    margin: 35px auto;
+    margin: 30px auto;
     padding: 30px;
     background-color: #FBE9D0;
     border-radius: 8px;
-    min-height: 400px;
+    min-height: 500px;
 }
 
 /*Dividing Line*/
@@ -79,10 +84,16 @@ hr {
 }
 
 /* Footer */
-footer {
+.footer {
     text-align: center;
     padding: 20px;
     color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
 }
 
 /* Dropdown Container */
@@ -121,3 +132,4 @@ footer {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
