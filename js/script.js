@@ -33,6 +33,3 @@ fetch("../../nav.html")
 
     })
     .catch(error => console.error("Navigation failed to load:", error));
-
-
-
